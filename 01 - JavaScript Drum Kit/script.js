@@ -3,12 +3,12 @@ let audio = document.querySelector('.sound')
 let buttons = document.querySelectorAll('.button')
 
 
-buttonsContainer.addEventListener('click', (event) => {
-    if (event.target.classList.contains('button')) {
-    audio.src = `./sounds/${event.target.dataset.sound}.wav`
-    audio.play()
-    }
-})
+// buttonsContainer.addEventListener('click', (event) => {
+//     if (event.target.classList.contains('button')) {
+//     audio.src = `./sounds/${event.target.dataset.sound}.wav`
+//     audio.play()
+//     }
+// })
 
 window.addEventListener('keydown', (event) => {
     switch (event.code) {
