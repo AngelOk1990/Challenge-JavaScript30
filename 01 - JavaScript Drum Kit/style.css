@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.buttons__container {
+  height: 100%;
+  width: 100%;
+  background-image: url("./background.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 90px;
+  border: 5px solid black;
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.button__name {
+  font-size: 35px;
+  color: white;
+}
+.button__sound {
+  font-size: 10px;
+  color: rgb(246, 210, 34);
+}
+
+.active {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
+
+/*# sourceMappingURL=style.css.map */
